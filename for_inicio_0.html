@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	/* 
+	PRESTE ATENÇÃO: quando usamos o zero para iniciar uma repetição, precisamos substituir o sinal do limitador (espaco2), de <= (menor igual) para apenas < (menor), pois o zero conta como primeiro elemento dentro do laço.
+
+	A ideia é que o laço deve se repetir 10 vezes, se trocarmos o valor de i* por *zero e mantivermos o <=, o laço irá se repetir 11 vezes!
+	*/
+
+	for( var i = 0; i < 10; i++ ) {
+    alert( "O resultado é " + (2 * i) );
+	}
+
+</script>

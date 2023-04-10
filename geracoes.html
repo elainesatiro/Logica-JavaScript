@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+    
+    function mostra(frase) {
+    	document.write(frase);
+    	pulaLinha();
+    }
+
+	var anoPortugueses = 1500;
+	var anoAtual = 2023;
+	var idadeMediaFilhos = 28;
+
+	var totalGeracoes = (anoAtual - anoPortugueses) / idadeMediaFilhos;
+
+	mostra(Math.round(totalGeracoes));
+
+
+
+
+</script>
